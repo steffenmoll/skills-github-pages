@@ -2,3 +2,6 @@ theme: minima
 title: steffen novak mollestad
 description: a place for where thoughts turns into writing
 author: steffenmoll
+
+exclude:
+  - starting-point.md
