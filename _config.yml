@@ -8,3 +8,4 @@ show_excerpts: true
 exclude:
   - starting-point.md
   - docs
+  - README.md
