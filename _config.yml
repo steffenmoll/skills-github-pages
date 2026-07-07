@@ -22,7 +22,7 @@ open_external_links_in_new_tab: true
 embed_tweets: false
 
 # Set to `true` to show the "Notes mentioning this note" backlinks section.
-show_backlinks: false
+show_backlinks: true
 
 # Set to `true` to show the interactive notes graph visualization.
 show_notes_graph: false
