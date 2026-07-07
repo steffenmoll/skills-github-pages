@@ -3,7 +3,7 @@ description:         a place for where thoughts turns into writing
 author:              steffenmoll
 
 url:                 "https://steffenmoll.github.io"
-baseurl:             "/writing"
+baseurl:             "/"
 
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json', 'starting-point.md', 'docs', 'README.md', 'Gemfile', 'Gemfile.lock']
