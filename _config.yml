@@ -21,6 +21,12 @@ open_external_links_in_new_tab: true
 # as their browser will communicate with Twitter's servers.
 embed_tweets: false
 
+# Set to `true` to show the "Notes mentioning this note" backlinks section.
+show_backlinks: false
+
+# Set to `true` to show the interactive notes graph visualization.
+show_notes_graph: false
+
 permalink:           pretty
 relative_permalinks: false
 

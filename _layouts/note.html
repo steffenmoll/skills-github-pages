@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article>
+<article class="note">
   <div>
     <h1>{{ page.title }}</h1>
     <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
@@ -10,6 +10,7 @@ layout: default
     </time>
   </div>
 
+  {% if site.show_backlinks %}
   <div id="notes-entry-container">
     <content>
       {{ content }}
@@ -36,10 +37,17 @@ layout: default
       {% endif %}
     </side>
   </div>
+  {% else %}
+  <content>
+    {{ content }}
+  </content>
+  {% endif %}
 </article>
 
+{% if site.show_notes_graph %}
 <hr>
 
 <p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
 {% include notes_graph.html %}
+{% endif %}
