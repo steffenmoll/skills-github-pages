@@ -7,7 +7,9 @@ Somewhere in every data platform pitch there's a slide that says something like 
 
 Here is the promise: buy (or build) the platform, and your data problems go away. Here is what actually happens: your data problems change shape. You trade "I don't know where this number comes from" for "I know exactly where this number comes from, and it takes forty minutes to find out why it's wrong." That's not nothing. It's also not what was promised.
 
-The thing that makes a platform worth having is flexibility. You can plug in new sources, let teams self-serve, build their own pipelines, define their own models. That's also the thing that makes it a mess six months later. Nobody sets out to create clutter. It happens one reasonable decision at a time: one more source added without a clear owner, one more transformation nobody quite remembers the reasoning for, one more team that built their own version of a table that already existed somewhere else, because finding the existing one was harder than writing a new query.
+The thing that makes a platform worth having is flexibility. You can plug in new sources, let teams self-serve, build their own pipelines, define their own models. That's also the thing that makes it a mess six months later. 
+
+Nobody sets out to create clutter. It happens one reasonable decision at a time: one more source added without a clear owner, one more transformation nobody quite remembers the reasoning for, one more team that built their own version of a table that already existed somewhere else, because finding the existing one was harder than writing a new query.
 
 This is basically the story of data mesh. The idea is good: distribute ownership to the teams closest to the data, let them move fast, stop bottlenecking everything through one central team. And it works, structurally. What it does not do on its own is guarantee that anyone treats their piece of it with the same care. Distribute ownership without distributing standards, and you don't get a mesh. You get a mess with better branding. Same clutter, just with an org chart that makes it look intentional.
 
