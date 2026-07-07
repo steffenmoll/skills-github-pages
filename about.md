@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I work with data platforms.
+I work with data platforms and investment data.
 
-Also into:
+Interested in how data shapes the future.
 
-- Home lab and self-hosting
-- Home Assistant
-- How data shapes the future (data sovereignty, etc.)
+Also interested in home lab, self-hosting and Home Assistant to name a few.
 
 [LinkedIn](https://www.linkedin.com/in/steffenmollestad/)
