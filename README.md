@@ -2,7 +2,7 @@
 
 Personal digital garden, built with [Jekyll](https://jekyllrb.com/) (using the [digital-garden-jekyll-template](https://github.com/maximevaillancourt/digital-garden-jekyll-template)) and hosted on [GitHub Pages](https://pages.github.com/).
 
-Live at: https://steffenmoll.github.io/writing/
+Live at: https://steffenmoll.github.io/
 
 ## Local development
 
