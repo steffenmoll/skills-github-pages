@@ -6,6 +6,12 @@ permalink: /tags/
 
 {% assign all_tags = site.notes | map: "tags" | flatten | compact | uniq | sort %}
 
+<div class="tags">
+  {% for tag in all_tags %}
+  <a class="internal-link tag" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+  {% endfor %}
+</div>
+
 {% for tag in all_tags %}
 <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
 
