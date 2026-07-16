@@ -4,7 +4,8 @@
 
 A four-part series on why data platforms don't solve the problems people buy them for, and what actually helps.
 
-Storytelling approach: promise and overdeliver, like Mark Rober — open with the claim, then earn it.
+Storytelling approach: promise and overdeliver, like Mark Rober — open with the claim, then earn it. 
+Keep posts within a 3 min read, but resulting in clear consise messages.
 
 ### Post 1: One platform doesn't solve your data problem — status: drafted
 
@@ -23,9 +24,10 @@ Angle: the hard part of a data platform isn't the tech stack, it's the organizat
 
 Key points:
 - Problems scale with org size, not with data volume. Small organization, people know the available datasets. With bigger organizations, people tend to stick to their familiar branch, and datasets easily become duplicated with different colors.
-- What "functional" means changes as the org grows — a platform that works for one team breaks down across ten
-- Where the data-mesh idea already assumes an organizational maturity most orgs don't have
+- What "functional" means changes as the org grows — a platform that works for one team breaks down across
 - the vision should be to build datasets hence data domains - often (unfortunatley) managed by one team - which lasts and lives healty also after an org change. Domains could be a database, schema, dbt project, etc.
+
+Solution: Intentionally design the platform for scale, both techically and organizationally. The design architecture should be business centered first, deliberitly defining the difference between business oriented domains and business supporting domains (tech functions).
 
 Avoid: don't repeat post 1's "platform doesn't solve everything" framing, take it as given and move on.
 
@@ -39,9 +41,11 @@ Key points:
 - Need for a quality "stamp" on a data product before others can trust and reuse it
 - What you gain and lose at each end of the spectrum — be concrete, not both-sides-y
 
+Solution: Define a framework for how to grade datasets, based on business metrics and data characteristics. 
+
 Avoid: don't resolve this into a single "best practice," the point is that it's a real trade-off.
 
-### Post 4: Practical thoughts on scaling
+### Post 4: Practical thoughts on data scaling
 
 Angle: grounded, example-driven follow-up — what does dealing with the scaling problem actually look like.
 
@@ -52,6 +56,19 @@ Key points:
 
 Avoid: keep this concrete and example-led, it's the payoff post after three posts of framing.
 
+### Post 5: AI is amplifying everything
+
+Angle: as AI lower the barrier for generating, the fundamentals becomes even more important
+
+Key Points: 
+- Barrier to create data assets, dashboards, data apps, etc. has never been lower - hence its more important than ever to question itself: "how and in what way can it create value"
+- Institutional knowledge and guidelines increases in importance
+
+Claim: A organizatinos AI skill instructions is the most important asset to be future proof.
+
+Solution: Use AI to enforce institutial guidelines to create organized platform, rather than clutter
+
 ## Idea bank (unsorted, not yet assigned to a post)
 
 - How do you actually choose the right dataset in the first place?
+- Open Source (and self-hosting) has never been easier
