@@ -52,6 +52,17 @@ Key points:
 
 Avoid: keep this concrete and example-led, it's the payoff post after three posts of framing.
 
+### Post 5: How do you actually choose the right dataset in the first place? — status: drafted
+
+Angle: the series' problems, experienced firsthand at the exact moment someone tries to use the platform — picking between several plausible, similarly-named tables with no visible way to tell which one is trustworthy.
+
+Key points:
+- A practical checklist (owner, description, modeled vs. raw, lineage/usage, tests, freshness) for picking a dataset under deadline pressure
+- Why that checklist is a symptom, not a fix — a good platform makes it unnecessary
+- Ties back to post 2 (durable ownership) and post 3 (a quality stamp before trust) as the actual solution
+
+Avoid: don't turn the checklist into the takeaway — the point is that needing one at all is the failure.
+
 ## Idea bank (unsorted, not yet assigned to a post)
 
-- How do you actually choose the right dataset in the first place?
+(empty)
